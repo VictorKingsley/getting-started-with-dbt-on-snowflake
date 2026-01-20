@@ -5,6 +5,7 @@ SHOW TABLES IN SCHEMA tb_101.raw_pos;
 SELECT COUNT(*) FROM tb_101.raw_pos.order_header;
 
 -- Understand a query that might be used in a mart
+
 SELECT 
     cl.customer_id,
     cl.city,
