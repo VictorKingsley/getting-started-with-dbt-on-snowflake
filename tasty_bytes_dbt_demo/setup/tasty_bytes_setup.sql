@@ -1,7 +1,7 @@
-USE ROLE accountadmin;
+-- USE ROLE accountadmin;
 
 CREATE OR REPLACE WAREHOUSE tasty_bytes_dbt_wh
-    WAREHOUSE_SIZE = 'small'
+
     WAREHOUSE_TYPE = 'standard'
     AUTO_SUSPEND = 60
     AUTO_RESUME = TRUE
